@@ -1,12 +1,6 @@
 import java.util.*;
 import java.io.*;
-/*
-final class Info {   //상속할 수 없음. extends불가 
-	public static final String JOIN ="100";
-	public static final String EXIT ="200";
-	public static final String SEND="300";
-}
-*/
+
 enum Info {
 	JOIN, EXIT, SEND
 }

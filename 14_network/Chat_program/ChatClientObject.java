@@ -1,16 +1,8 @@
 import javax.swing.*;
-import java.awt.Container;
-import java.awt.BorderLayout;
-import java.awt.Font;
+import java.awt.*;
 import java.awt.event.*;
-import java.io.IOException;
-import java.net.UnknownHostException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStreamWriter;
-import java.io.InputStreamReader;
-import java.net.InetSocketAddress;
-import java.net.Socket;
+import java.io.*;
+import java.net.*;
 import java.io.*;
 
 class  ChatClientObject extends JFrame implements ActionListener,Runnable
